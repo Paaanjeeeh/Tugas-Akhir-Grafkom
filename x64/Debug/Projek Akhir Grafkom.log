@@ -1,0 +1,42 @@
+﻿  RenderEngine.cpp
+  Demo.cpp
+c:\users\kiruyos\downloads\gudang\demo.cpp(348): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\kiruyos\downloads\gudang\demo.cpp(451): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\kiruyos\downloads\gudang\demo.cpp(560): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\kiruyos\downloads\gudang\demo.cpp(698): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\kiruyos\downloads\gudang\demo.cpp(817): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\kiruyos\downloads\gudang\demo.cpp(1090): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\kiruyos\downloads\gudang\demo.cpp(1195): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\kiruyos\downloads\gudang\demo.cpp(1290): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\kiruyos\downloads\gudang\demo.cpp(1377): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+  Generating Code...
+  glad.c
+Demo.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "private: virtual void __cdecl Demo::ProcessInput(struct GLFWwindow *)" (?ProcessInput@Demo@@EEAAXPEAUGLFWwindow@@@Z)
+Demo.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function "private: void __cdecl Demo::InitCamera(void)" (?InitCamera@Demo@@AEAAXXZ)
+Demo.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "private: virtual void __cdecl Demo::ProcessInput(struct GLFWwindow *)" (?ProcessInput@Demo@@EEAAXPEAUGLFWwindow@@@Z)
+Demo.obj : error LNK2019: unresolved external symbol glfwGetMouseButton referenced in function "private: virtual void __cdecl Demo::ProcessInput(struct GLFWwindow *)" (?ProcessInput@Demo@@EEAAXPEAUGLFWwindow@@@Z)
+Demo.obj : error LNK2019: unresolved external symbol glfwGetCursorPos referenced in function "private: virtual void __cdecl Demo::ProcessInput(struct GLFWwindow *)" (?ProcessInput@Demo@@EEAAXPEAUGLFWwindow@@@Z)
+Demo.obj : error LNK2019: unresolved external symbol glfwSetCursorPos referenced in function "private: virtual void __cdecl Demo::ProcessInput(struct GLFWwindow *)" (?ProcessInput@Demo@@EEAAXPEAUGLFWwindow@@@Z)
+Demo.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "private: virtual void __cdecl Demo::Render(void)" (?Render@Demo@@EEAAXXZ)
+RenderEngine.obj : error LNK2001: unresolved external symbol glfwGetTime
+Demo.obj : error LNK2019: unresolved external symbol SOIL_load_image referenced in function "private: void __cdecl Demo::BuildAtap(void)" (?BuildAtap@Demo@@AEAAXXZ)
+Demo.obj : error LNK2019: unresolved external symbol SOIL_free_image_data referenced in function "private: void __cdecl Demo::BuildAtap(void)" (?BuildAtap@Demo@@AEAAXXZ)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "protected: void __cdecl RenderEngine::Err(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?Err@RenderEngine@@IEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwGetPrimaryMonitor referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwGetVideoMode referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function "public: __cdecl RenderEngine::~RenderEngine(void)" (??1RenderEngine@@QEAA@XZ)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwSetWindowPos referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwSwapInterval referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+RenderEngine.obj : error LNK2019: unresolved external symbol glfwGetProcAddress referenced in function "public: void __cdecl RenderEngine::Start(char const *,unsigned int,unsigned int,bool,bool)" (?Start@RenderEngine@@QEAAXPEBDII_N1@Z)
+C:\Users\Kiruyos\Downloads\Gudang\deps\lib\glew32s.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Kiruyos\Downloads\Gudang\deps\lib\glew32.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Kiruyos\Downloads\Gudang\deps\lib\SOIL.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Kiruyos\Downloads\Gudang\deps\lib\glfw3.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Kiruyos\Downloads\Gudang\x64\Debug\Projek Akhir Grafkom.exe : fatal error LNK1120: 23 unresolved externals

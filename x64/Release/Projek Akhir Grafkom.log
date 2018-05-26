@@ -1,0 +1,5 @@
+﻿  Demo.cpp
+c:\users\kiruyos\downloads\gudang\RenderEngine.h(4): fatal error C1083: Cannot open include file: 'GLAD/glad.h': No such file or directory
+  RenderEngine.cpp
+c:\users\kiruyos\downloads\gudang\RenderEngine.h(4): fatal error C1083: Cannot open include file: 'GLAD/glad.h': No such file or directory
+  Generating Code...
